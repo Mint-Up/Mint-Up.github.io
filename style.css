@@ -11,7 +11,7 @@ html, body {
 }
 
 .mint-up {
-  background: url("mint.jpg") no-repeat center bottom ;
+  background: url("images/mint.jpg") no-repeat center bottom ;
   width: 100%;
   height: auto;	
   background-size: cover;
@@ -22,7 +22,7 @@ html, body {
 }
 
 .linie {
-  background: url("linie.png") no-repeat center bottom ;
+  background: url("images/linie.png") no-repeat center bottom ;
   width: 100%;
   height: auto;	
   background-size: cover;
