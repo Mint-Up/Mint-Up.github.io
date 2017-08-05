@@ -1,73 +1,84 @@
 ﻿<!DOCTYPE html>
-<html>
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400, 600" rel="stylesheet">
-    <link href="style.css" type="text/css" rel="stylesheet">
-  </head>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="style.css" type="text/css" rel="stylesheet">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+</head>
 <body>
 
-  <div class="header">
-    <div class="container">
-      <ul class="nav">
-        <li>Leistungen</li>
-        <li>Projekte</li>
-        <li>Team</li>
-        <li>Kontakt</li>
-	<li>@</li>
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Me</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">WHO</a></li>
+        <li><a href="#">WHAT</a></li>
+        <li><a href="#">WHERE</a></li>
       </ul>
     </div>
   </div>
+</nav>
 
-  <div class="mint-up">
-    <div class="container">  
-      <div class="main">
-        <h1>Wir bringen Minze ins Dunkel!!</h1>
-        <a class="btn-main" href="#">Los gehts!</a>
-      </div>
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <img src="bird.jpg" class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>I'm an adventurer</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">What Am I?</h3>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">Where To Find Me?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds1.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <img src="birds3.jpg" class="img-responsive margin" style="width:100%" alt="Image">
     </div>
   </div>
+</div>
 
-  <div class="supporting">
-    <div class="container">
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Bootstrap Theme Made By <a href="https://www.w3schools.com">www.w3schools.com</a></p> 
+</footer>
 
-      <div class="col">
-       <img src="images/dollar-symbol.png">
-        <h2>Basis-Paket</h2>
-        <p>Ihr habt eine Idee und wollt wissen ob sie im Netz funktioniert? Dann ist ein Webauftritt für kleines Geld die richtige für euch.</p>
-		<a class="btn-default" href="#">Learn more</a>	
-      </div>
-
-      <div class="col">
-        <img src="images/dollar-symbol.png">  <img src="images/dollar-symbol.png">
-        <h2>Business-Paket</h2>
-        <p>Hier könnt ihr variabel wählen und eure Leistungen genau euren Wünschen anpassen.</p>
-		<a class="btn-default" href="#">Learn more</a>	
-      </div>
-
-      <div class="col">
-   <img src="images/dollar-symbol.png">  <img src="images/dollar-symbol.png"> <img src="images/dollar-symbol.png"> 
-        <h2>Premium-Paket</h2>
-        <p>Ihr wollt, dass eure Webauftritt so professionell ist wie von Minze, dann seid ihr hier richtig!</p>
-		<a class="btn-default" href="#">Learn more</a>	
-      </div>
-
-    </div>
-  </div>
-
-  <div class="linie">
-  </div>
-
-    <div class="clearfix"></div>
-  </div>
-
-  <div class="footer">
-    <div class="container">
-      <p>&copy; 2017 Johannes und David Productions</p>
-      <p>Datenschutzerklärung</p>
-      <p>AGB</p>
-      <p>Impressum</p>
-
-    </div>
-  </div>
 </body>
 </html>
