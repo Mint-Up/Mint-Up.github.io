@@ -7,7 +7,7 @@ body {
 p {font-size: 16px;}
 .margin {margin-bottom: 45px;}
 .bg-1 { 
-  background-color: #5cc56d; /* Green */
+  background-colorfont color=fff;" /* Green */
   color: #ffffff;
 }
 
@@ -26,9 +26,39 @@ p {font-size: 16px;}
   color: #fff;
 }
 
+.bg-5 { 
+  background-color: #fff; /* White White */
+  color: #fff;
+}
+
 .container-fluid {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+a:link {
+  color: #3ccf6e; 
+}
+
+a:vlink {
+  color: #f28bf2; 
+}
+
+a:alink {
+  color: #e74848; 
+}
+
+a:visited {
+  color: #3ccf6e; 
+}
+
+a:hover {
+  color: #3ccf6e;
+  font color: #fff;
+}
+
+a:active {
+  color: #3ccf6e; 
 }
 
 .navbar {
@@ -42,6 +72,6 @@ p {font-size: 16px;}
 }
 
 .navbar-nav  li a:hover {
-  color: #1abc9c !important;
+  color: #3ccf6e !important;
 }
   
