@@ -2,3 +2,48 @@ header {
   background-image:url(../img/mint.jpg);
 }
 
+
+/*!
+background for contact-section
+ */
+section#contact {
+    background-image: none;
+    background-color: white;
+}
+
+/*!
+font-color for headings in the contact section (due to being white on white background)
+ */
+section#contact .section-heading {
+  color: black;
+}
+/*!
+testing on the contact form- to make it appear as our example
+ */
+.form-control {
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-image: none;
+    border: none;
+    border-bottom: 2px solid dimgrey;
+    border-radius: 0px;
+ 
+}
+
+/*!
+background-color nav-bar
+ */
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: #eee;
+  }
+    
+/*!
+font-color nav-bar
+ */
+.navbar-custom .nav li a, .navbar-custom .navbar-toggle {
+  color: black;
+}
