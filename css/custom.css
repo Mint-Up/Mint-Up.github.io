@@ -48,15 +48,23 @@ font-color nav-bar
   color: black;
 }
     
-::-webkit-input-placeholder { /* WebKit browsers */
-color:red;
+/*!
+font-color of example text, will aber irgendwie nichtr funktionieren... hier der link von wo ich es habe https://stackoverflow.com/questions/2610497/change-an-html5-inputs-placeholder-color-with-css/2610741#2610741
+ */
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color:    #909;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-color:red;
+   color:    #909;
+   opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-color:red;
+   color:    #909;
+   opacity:  1;
 }
-:-ms-input-placeholder { /* Internet Explorer 10+ */
-color:red;
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color:    #909;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color:    #909;
 }
