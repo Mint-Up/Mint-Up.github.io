@@ -2,6 +2,13 @@ header {
   background-image:url(../img/mint.jpg);
 }
 
+/*!
+font-size responsive
+ */
+
+header .intro-text .intro-heading {
+  font-size: 3em;
+}
 
 /*!
 background for contact-section
