@@ -3,6 +3,52 @@ header {
 }
 
 /*!
+headlines bearbeiten
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-weight: 300;
+}
+
+section h2.section-heading {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+
+section h3.section-subheading {
+  font-size: 16px;
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: none;
+  font-style: normal;
+  font-weight: lighter;
+  margin-bottom: 75px;
+}
+
+header .intro-text .intro-lead-in {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: initial;
+  font-weight: lighter;
+  font-size: 22px;
+  line-height: 22px;
+  margin-bottom: 25px;
+}
+header .intro-text .intro-heading {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: initial;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+    
+/*!
 font-size responsive
  */
 
