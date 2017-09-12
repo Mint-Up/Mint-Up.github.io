@@ -106,28 +106,64 @@ testing on the contact form- to make it appear as in our example
     border: none;
     border-bottom: 2px solid dimgrey;
     border-radius: 0px;
- 
 }
 
+/*!
+defined as white in agency.min.css so changed to initial color value
+*/
+section#contact .section-heading {
+  color: inherit;
+}
 
     
 /*!
 font-color of example text, will aber irgendwie nichtr funktionieren... hier der link von wo ich es habe https://stackoverflow.com/questions/2610497/change-an-html5-inputs-placeholder-color-with-css/2610741#2610741
  */
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
-    color:    #909;
+    color:#989;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-   color:    #909;
+   color:#909;
    opacity:  1;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-   color:    #909;
-   opacity:  1;
+   color:#909;
+   opacity:1;
 }
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-   color:    #909;
+   color:#909;
 }
 ::-ms-input-placeholder { /* Microsoft Edge */
-   color:    #909;
+   color:#909;
+}
+
+/*!
+You can ignore the try above, it doesn't work. The code below is from agency.css and only the color-value ist replaced. It works fine. You can play around with it. 
+ */
+
+section#contact ::-webkit-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #909;
+}
+section#contact :-moz-placeholder {
+  /* Firefox 18- */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #909;
+}
+section#contact ::-moz-placeholder {
+  /* Firefox 19+ */
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #909;
+}
+section#contact :-ms-input-placeholder {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #909;
 }
