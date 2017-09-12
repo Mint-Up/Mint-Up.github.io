@@ -41,6 +41,7 @@ header .intro-text .intro-lead-in {
   line-height: 22px;
   margin-bottom: 25px;
 }
+
 header .intro-text .intro-heading {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: initial;
@@ -65,19 +66,15 @@ header .intro-text .intro-heading {
 }
 
 /*!
-background for contact-section
+background for contact-section + font-color for headings in the contact section (due to being white on light background)
  */
 section#contact {
     background-image: none;
     background-color: #eeeeee;
-}
+    color: black;
+} 
     
-/*!
-font-color for headings in the contact section (due to being white on light background)
- */
-section#contact .section-heading {
-  color: black;
-}
+
 /*!
 testing on the contact form- to make it appear as in our example
  */
