@@ -3,6 +3,24 @@ header {
 }
 
 /*!
+font-color nav-bar
+ */
+.navbar-custom .nav li a, .navbar-custom .navbar-toggle {
+  color: black;
+}
+
+/*!
+background-color nav-bar, when you are on the top of the side. As soon as you scroll, the background color changes.
+ */
+@media only screen and (max-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+  }
+}
+
+    
+
+/*!
 headlines bearbeiten
  */
 
@@ -91,20 +109,7 @@ testing on the contact form- to make it appear as in our example
  
 }
 
-/*!
-background-color nav-bar, when you are on the top of the side. As soon as you scroll, the background color changes.
- */
-@media (min-width: 768px) {
-  .navbar-custom {
-    background-color: transparent;
-  }
-    
-/*!
-font-color nav-bar
- */
-.navbar-custom .nav li a, .navbar-custom .navbar-toggle {
-  color: black;
-}
+
     
 /*!
 font-color of example text, will aber irgendwie nichtr funktionieren... hier der link von wo ich es habe https://stackoverflow.com/questions/2610497/change-an-html5-inputs-placeholder-color-with-css/2610741#2610741
