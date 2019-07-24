@@ -5,7 +5,7 @@ header {
 /*!
 font-color nav-bar
  */
-.navbar-custom .nav li a, .navbar-custom .navbar-toggle {
+.navbar-custom .nav li a, .navbar-custom {
   color: black;
 }
 
@@ -27,61 +27,52 @@ nav-bar settings, with smaller devices.
     background: #f6f6f6;
     padding: 5px 0;
     -webkit-transition: padding 0.3s;
-    -moz-transition: padding 0.3s;
     transition: padding 0.3s;
     border: none;
   }
 }
 
-
-
 /*!
 headlines bearbeiten
  */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-transform: none;
-  font-weight: 300;
-}
-
 section h2.section-heading {
-  font-size: 40px;
-  margin-top: 0;
-  margin-bottom: 15px;
+  font-family: 'Roboto Slab', 'Open Sans', Lato, Montserrat; 
+  font-size: 37px;
+  line-height: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
-
-section h3.section-subheading {
-  font-size: 16px;
-  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+.subheading{
+  font-family: 'Roboto Slab', 'Open Sans', Lato, Montserrat; 
   text-transform: none;
   font-style: normal;
   font-weight: lighter;
-  margin-bottom: 75px;
+  font-size: 23px;
+  line-height: 25px;
+  margin-top: 25px;
+    margin-bottom: 75px;
+}
+header .intro-text .intro-heading {
+  font-family: 'Open Sans', 'Roboto Slab', Lato, Montserrat; 
+  font-weight: initial;
+  font-size: 37px;
+  line-height: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 header .intro-text .intro-lead-in {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Roboto Slab', Lato, Montserrat; 
   font-style: initial;
   font-weight: lighter;
-  font-size: 22px;
-  line-height: 22px;
+  font-size: 23px;
+  line-height: 25px;
+  margin-top: 25px;
   margin-bottom: 25px;
 }
 
-header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: initial;
-  font-size: 50px;
-  line-height: 50px;
-  margin-bottom: 25px;
-}
 /*!
 font-size responsive
  */
@@ -107,6 +98,11 @@ section#contact {
     color: black;
 } 
     
+/* Buttons */
+.btn-xl:hover{
+    background-color: #58D471;
+    border: none;
+}
 
 /*!
 testing on the contact form- to make it appear as in our example
@@ -157,28 +153,118 @@ You can ignore the try above, it doesn't work. The code below is from agency.css
  */
 
 section#contact ::-webkit-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Roboto Slab', Lato, Montserrat; 
   text-transform: uppercase;
   font-weight: normal;
   color: #909;
 }
 section#contact :-moz-placeholder {
   /* Firefox 18- */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Roboto Slab', Lato, Montserrat; 
   text-transform: uppercase;
   font-weight: normal;
   color: #909;
 }
 section#contact ::-moz-placeholder {
   /* Firefox 19+ */
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Roboto Slab', Lato, Montserrat; 
   text-transform: uppercase;
   font-weight: normal;
   color: #909;
 }
 section#contact :-ms-input-placeholder {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', 'Roboto Slab', Lato, Montserrat; 
   text-transform: uppercase;
   font-weight: normal;
   color: #909;
+}
+.divalles{
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width: 900px;
+    padding: 0 5%;
+}
+#logo{
+    margin-left: 20px;
+}
+
+/* TEXT */
+html, .root {
+  font-size: 14px;
+  line-height: 25px;
+}
+body, .article {
+  font-family: 'Open Sans', 'Roboto Slab', Lato, Montserrat; 
+  font-size: 14px;
+  line-height: 25px;
+}
+h1 {
+  font-family: 'Roboto Slab', 'Open Sans', Lato, Montserrat; 
+  font-size: 59px;
+  line-height: 75px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+h2 {
+  font-family: 'Roboto Slab', 'Open Sans', Lato, Montserrat; 
+  font-size: 37px;
+  line-height: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+h3 {
+  font-family: 'Roboto Slab', 'Open Sans', Lato, Montserrat; 
+  font-size: 23px;
+  line-height: 25px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+h4 {
+  font-family: 'Roboto Slab', 'Open Sans', Lato, Montserrat; 
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+h5 {
+  font-family: 'Roboto Slab', 'Open Sans', Lato, Montserrat; 
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+h6 {
+  font-family: 'Roboto Slab', 'Open Sans', Lato, Montserrat; 
+  font-size: 14px;
+  line-height: 25px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
 }
