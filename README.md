@@ -7,5 +7,5 @@ Two guys that met in the coffee shop lost weekend in munich drinking mint tea.
 ## What we learned
 
 * Creating a modern and fresh web design
-* Developing a responsive, mobile-first projects with HTML and CSS
+* Developing a responsive, mobile-first projects with HTML, CSS, and JavaScript (jQuery)
 * Using the front-end component library Bootstrap
