@@ -1,6 +1,6 @@
 # Mint-Up web development agency
 
-Mint-Up is about enabling people to bring their ideas into the web.
+Mint-Up is an agency that helps bringing your ideas into the web.
 It was started by Johannes Ströbele and David Svilokos.
 Two guys that met in the coffee shop lost weekend in munich drinking mint tea.
 
